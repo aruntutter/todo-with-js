@@ -1,0 +1,82 @@
+/* Content */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* Title */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap');
+
+/* Numbers */
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  /* Font Family */
+  --title: 'Titillium Web',
+    sans-serif;
+  --content: 'Roboto Condensed',
+    sans-serif;
+  --numbers: 'Tektur',
+    sans-serif;
+
+  /* Color */
+  --black: #000000;
+  --white: #ffffff;
+  --light-gray: #d9d9d9;
+  --dark-gray: #6c757d;
+  --clr-one: #f72585;
+  --clr-two: #90e0ef;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--content);
+  background-color: #fff;
+}
+
+/* global css */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  /* customize */
+  color: var(--white);
+  border: 2px solid #1c2042;
+}
+
+@media screen and (min-width: 576px) {}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {}
