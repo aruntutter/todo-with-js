@@ -155,7 +155,7 @@ section .btn i {
 }
 
 /* Media Query - Mobile Phones */
-@media (max-width: 412px) {
+@media (max-width: 425px) {
 
   body {
     background: linear-gradient(to right, var(--clr-two), #2c3e50);
