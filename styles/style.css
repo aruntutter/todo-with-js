@@ -144,6 +144,7 @@ section .btn i {
   /* customize */
   color: var(--black);
   border: 1px solid;
+  user-select: none;
   /* background styles */
   /* background: rgb(131, 58, 180);
   background: linear-gradient(353deg, rgba(131, 58, 180, 1) 0%, rgba(29, 180, 253, 1) 100%); */
